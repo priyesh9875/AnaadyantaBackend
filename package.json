@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "https://github.com/priyesh9875/FCMPushServer",
+  "main": "pushServer.js",
+  "dependencies": {
+    "firebase-admin": "^4.0.6",
+    "log": "^1.4.0",
+    "moment": "^2.17.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyesh9875/FCMPushServer"
+  },
+  "author": "priyesh9875",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyesh9875/FCMPushServer/issues"
+  },
+  "homepage": "https://github.com/priyesh9875/FCMPushServer#readme"
+}

@@ -1,0 +1,12 @@
+# firebase private config
+config.json
+log.txt
+serviceAccount.json
+
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+
