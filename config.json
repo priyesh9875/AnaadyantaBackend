@@ -1,0 +1,4 @@
+{
+    "API_KEY": "<YOUR_SERVER_API_KEY>",
+    "databaseURL": "https://<APP_NAME>.firebaseio.com"
+}
