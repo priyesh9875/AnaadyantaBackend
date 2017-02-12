@@ -1,6 +1,7 @@
 # firebase private config
 config (copy).json
-log.txt
+FCMlog.txt
+Registrationlog.txt
 serviceAccount.json
 
 

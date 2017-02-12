@@ -1,12 +1,13 @@
 {
   "name": "server",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "https://github.com/priyesh9875/FCMPushServer",
-  "main": "pushServer.js",
+  "main": "startService.js",
   "dependencies": {
     "firebase-admin": "^4.0.6",
     "log": "^1.4.0",
     "moment": "^2.17.1",
+    "nodemailer": "^3.0.2",
     "request": "^2.79.0"
   },
   "devDependencies": {},
@@ -15,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/priyesh9875/FCMPushServer"
+    "url": "git+https://github.com/priyesh9875/AnaadyantaBackend"
   },
   "author": "priyesh9875",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/priyesh9875/FCMPushServer/issues"
+    "url": "https://github.com/priyesh9875/AnaadyantaBackend/issues"
   },
-  "homepage": "https://github.com/priyesh9875/FCMPushServer#readme"
+  "homepage": "https://github.com/priyesh9875/AnaadyantaBackend#readme"
 }
