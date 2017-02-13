@@ -107,30 +107,30 @@ function sendRegistrationMail(to, eventTitle, name) {
     subject: `Registration for ${eventTitle} `,
     html: `
             <div style="background-color:'white; padding-left: 20px; padding-top: 20px; padding-bottom: 20px; padding-right: 20px">
-                <h1>Hello <i>${name || "User XXX"},</i></h1>
+                <h1>Hello <i>${name || "User"}!</i></h1>
 
                 <img alt="${eventTitle}" src="http://www.onspon.com/event/pics/1565306216whatsappimage2017-01-06at12.00.24am(1).jpeg" style="width: 100%"/>
-                <p>Thank you for showing interest and registering for <b>${eventTitle}</b> at Anaadyanta '17.
+                <p>Thank you for showing interest in <b>${eventTitle}</b> at Anaadyanta 2017. You have now successfully registered for the event. 
 
-                <p>What next</p>
+                <p>What's next?</p>
                 <ul>
-                    <li>Come to college atleast 1 hr prior to sheduled time.</li>
+                    <li>Check out our website just before 9th March 2017 to get the final schedule of the events.</li>
+                    <li>Please arrive at least <b>1 hour</b> before the scheduled time of the event.</li>
                     <li>Pay the registration fee at registration desk and collect your entry ticket.</li>
-                    <li>Participate and win all prizes.</li>
+                    <li>Participate in the events!Enjoy:)</li>
                 </ul>
 
-                <p>Hope to see you soon</p>
-                <p>All the best</p>
+                <p>Hope to see you soon.</p>
+                <p>All the best!</p>
 
 
-                <p>Yours <b>Team Anaadyanta</b></p>
+                <p>Yours,<br/><b>Team Anaadyanta 2017</b></p>
             </div>
-                <p style="text-align:'center'">https:github.com/priyesh9875/anaadyanta</p>
-        
-            <p>Contact</p>
-                <p>webteam17@anaadyanta.org</p>
-                <p>appteam17@anaadyanta.org</p>
 
+            <p>For further details, Contact us at:</p>
+            <p><a href="mailto:info@anaadyanta.org">info@anaadyanta.org</a></p>
+            
+            <p style="text-align:'center'">https://github.com/priyesh9875/anaadyanta</p>
         `,
 
   };
